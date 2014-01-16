@@ -1,3 +1,4 @@
+
 module.exports = {
 	lastfm: {
 		apikey: '',
@@ -6,6 +7,12 @@ module.exports = {
 	facebook: {
 		name: '',
 		id: 0,
+		clientID: 0,
+		clientSecret: '',
 		userAccessToken: ''
+	},
+	redis: {
+		ip: '127.0.0.1',
+		port: 6379
 	}
 };

@@ -1,0 +1,38 @@
+{
+  "name": "fb-lastfm",
+  "description": "Facebook App to show recent played songs",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Adam Schodde",
+      "email": "sparky1010+github@gmail.com",
+      "web": "http://www.quailcity.com"
+    }
+  ],
+  "dependencies": {
+    "fb": "*",
+    "request": "*",
+    "lastfm": "*",
+    "redis": "*",
+    "js-beautify": "*"
+  },
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/brutalhonesty/fb-lastfm.git"
+    }
+  ],
+  "devDependencies": {},
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://www.tldrlegal.com/license/mit-license"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "install" : "cp settings.js.template settings.js"
+  }
+}
