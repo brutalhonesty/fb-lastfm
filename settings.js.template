@@ -1,0 +1,11 @@
+module.exports = {
+	lastfm: {
+		apikey: '',
+		secret: ''
+	},
+	facebook: {
+		name: '',
+		id: 0,
+		userAccessToken: ''
+	}
+};
