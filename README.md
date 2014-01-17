@@ -53,6 +53,8 @@ cd /path/to/repo
 npm install
 # Edit settings.js
 vim settings.js
-# Run server
+# Start Redis server
+/path/to/redis-server
+# Run script
 node main.js
 ```
