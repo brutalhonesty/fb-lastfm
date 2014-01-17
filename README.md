@@ -54,5 +54,5 @@ npm install
 # Edit settings.js
 vim settings.js
 # Run server
-node index.js
+node main.js
 ```
