@@ -25,6 +25,9 @@ Version
 
 Dependencies
 ------------
+
+[Redis](http://redis.io)
+
 [NodeJS](http://nodejs.org)
 
 AccessTokens
